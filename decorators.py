@@ -11,4 +11,5 @@ def timer_test(func):
 @timer_test
 def test1():
     print(564+32)
+    print(10*10)
 test1()
