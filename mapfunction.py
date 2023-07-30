@@ -4,3 +4,9 @@ def test(l):
     for i in l:
         l1.append(i**2)
     return l1 
+
+#using map keyword
+
+def sq(x):
+    return x**2
+list(map(sq,l))
