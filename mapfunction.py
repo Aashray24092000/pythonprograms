@@ -4,3 +4,7 @@ def test(l):
     for i in l:
         l1.append(i**2)
     return l1 
+
+#using map and lambda function
+
+list(map(lambda x:x**2,l ))
