@@ -8,3 +8,9 @@ def test(l):
 #using map and lambda function
 
 list(map(lambda x:x**2,l ))
+
+#another code for map and lambda
+
+l1=[1,2,3,4,5,6]
+l2=[1,2,3,4,5,6]
+list(map(lambda  x,y:x+y,l1,l2))
