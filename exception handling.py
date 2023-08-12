@@ -14,3 +14,11 @@ try:
     validateage(age)
 except validateage as e:
     print(e)
+
+#indexerror
+try:
+    l=[1,2,3,44,5]
+    l[19]
+    print(l[19])
+except IndexError as e:
+    print(e)
